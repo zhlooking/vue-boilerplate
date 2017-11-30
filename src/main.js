@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import hello from 'app/components/hello/hello';
+import index from 'app/components/index/index';
 
 new Vue({
-  render: (h) => h(hello)
+  render: (h) => h(index)
 }).$mount('#app');

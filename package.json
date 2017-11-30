@@ -6,7 +6,7 @@
   "author": "zhlookin <zhlookin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm-run-all build:js deploy:resources",
+    "dev": "npm-run-all build:js deploy:resources",
     "build:js": "webpack",
     "deploy:resources": "cp src/index.html dist/index.html"
   },
